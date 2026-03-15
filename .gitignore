@@ -1,4 +1,32 @@
-# Compiled class file
+.gradle/
+build/
+!gradle/wrapper/gradle-wrapper.jar
+.idea/
+*.iml
+*.iws
+*.ipr
+out/
+
+run/
+logs/
+crash-reports/
+
+# === KOTLIN ===
+.kotlin/
+
+*.class
+*.log
+*.ctxt
+.mtj.tmp/
+*.jar
+*.war
+*.nar
+*.ear
+*.zip
+*.tar.gz
+*.rar
+hs_err_pid*
+replay_pid*# Compiled class file
 *.class
 
 # Log file

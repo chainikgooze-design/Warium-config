@@ -159,10 +159,7 @@ dependencies {
     // Put the .jar files there and uncomment the lines below.
     // The group id is ignored by flatDir - use any placeholder (e.g. 'mods').
     // -------------------------------------------------------------------------
-    implementation fg.deobf("mods:Warium 1.2.7")           // crusty_chunks
-    implementation fg.deobf("mods:WariumVS 1.0.1")         // valkyrien_warium
-    implementation fg.deobf("mods:cbcwarium-1.3.4")        // shupapium
-
+    implementation fg.deobf(fileTree(dir: 'libs', include: ['*.jar']))
     // -------------------------------------------------------------------------
     // MODRINTH MAVEN (uncomment 'maven { url = modrinth }' in repositories first)
     // -------------------------------------------------------------------------
